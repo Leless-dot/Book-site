@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    
+    background: url('/images/book.svg') no-repeat top/contain;
+    background-size: 35rem;
+    background-position: 35rem 9rem;
+    overflow: hidden;
+
+    font-family: 'Poppins';
+    
+}
+
+input{
+    background: #EDF2FE;
+    border-radius: .5rem;
+    padding: 11px 15px 13px;
+    
+}
+
+header{
+    margin: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    font-family: 'Poppins';
+    color: #fff;
+    background: #FC5868;
+    width: 9rem;
+    height: 3rem;
+}
+
+#logo img{
+    width: 50px;
+    height: 50px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#pesquisa{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#pesquisa a{
+    background: #EDF2FE;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.icon{
+    width: 27px;
+    height: 27px;
+}
+
+.centro{
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+ul{
+    height: 50vh;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: .3rem;
+    padding: 25px;
+    background: #EDF2FE;
+    width: 134px;
+}
+
+
+#text{
+    margin-left: 2rem;
+    margin-top: -2rem;
+    width: 30%;
+}
+
+h1{
+    color: #14134F;
+    font-size: 2.6rem;
+}
+
+#text p{
+    margin: 1rem 0 1rem;
+}
+
+.details{
+    margin: auto;
+    width: 90%;
+    height: 23rem;
+
+    background: #14134F;
+    color:rgba(255, 255, 255, .6);
+
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.details p{
+    margin-top: 4rem;   
+    width: 940px;
+    height: 65px;
+}
+
+button:hover{
+    background: rgba(252, 88, 104, 0.8);   
+}
+
+li:hover{
+    color: #fff;
+    background: #14134F;
+    transition: .2s;
+}
